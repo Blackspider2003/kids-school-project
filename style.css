@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.hide{display: none;}
+
+/* Header section style */
+.navbar{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+}
+.logo{
+                display: flex;
+                align-items: center;
+}
+.logo span{
+                color: black;
+                font-weight: 700px;
+                font-size: 2rem;
+}
+.nav-links{
+                list-style: none;
+                display: flex;
+                gap: 25px;
+}
+.nav-links li a{
+                text-decoration: none;
+}
+
+.contact-btn{
+                background-color: orange;
+                width: 157px;
+                height: 50px;
+                border: none;
+                border-radius: 12px;
+                font-weight: 600px;
+                font-size: 1.25rem;
+                text-decoration: none;
+               text-align: center;
+               color: white;
+}
+.home{
+                color: orange;
+                font-weight: 700px;
+                font-size: 1.25rem;
+}
+.about{
+                color: skyblue;
+                font-weight: 700px;
+                font-size: 1.25rem;
+}
+.facilities{
+                color: #05D4DF;
+                font-weight: 700px;
+                font-size: 1.25rem;
+}
+.admission{
+                color: #5D58EF;
+                font-weight: 700px;
+                font-size: 1.25rem;
+}
+
+/* Banner section style */
+
+.banner-section{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                /* gap: 50px; */
+}
+
+.banner-title{
+                font-weight: 700px;
+                font-size: 3.5rem;
+                color: black;
+}
+
+.empowring{
+                color: orange;
+}
+.towards{
+                color: skyblue;
+}
+
+.banner-btn{
+                width: 197px;
+                height: 50px;
+                color: white;
+                background-color: black;
+                border: none;
+                border-radius: 12px;
+                font-weight: 700px;
+                font-size: 1.25rem;
+}
+
+/* responsive section style */
+
+@media screen and (max-width:576px) {
+                /* banner section responsive */
+                .banner-section{
+                                flex-direction: column-reverse;
+                                text-align: center;
+                                width: 100%;
+                }
+                .banner-image img{
+                                width: 100%;
+                }
+                .banner-text{
+                                width: 100%;
+                }
+}
+
+
