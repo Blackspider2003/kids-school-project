@@ -8,6 +8,12 @@
   font-weight: 400;
   font-style: normal;
 }
+body{
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid blue;
+}
 .hide{display: none;}
 
 /* Header section style */
@@ -100,6 +106,93 @@
                 font-size: 1.25rem;
 }
 
+/* standered Section Style */
+
+.standered-section{
+  
+  /* border: 2px solid salmon; */
+  background-image: url(./assets/bg.png);
+  width: 100%;
+  /* background-size: cover; */
+}
+
+
+.Standard-title{
+  font-weight: 700px;
+  font-size: 2.75rem;
+  color: #000000;
+  text-align: center;
+  
+}
+.standered-container{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around; 
+  gap: 28px; 
+}
+.box-1{
+    background-color: #DEF5FF;
+    box-shadow: 0 0 28.3px 0.95px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    width: 367px;
+    height: 475px;
+    /* margin-bottom: 200px;
+    margin-left: 140px;
+    margin-right: 140px; */
+}
+.box-1 img{
+  margin-top: 50px;
+}
+.box-title{
+  font-weight: 700px;
+  font-size: 1.5rem;
+  color: #202020;
+}
+.box-description{
+    font-weight: 500px;
+    font-size: 1rem;
+    color: #808080;
+}
+#link-1{
+  font-weight: 700px;
+  font-size: 1rem;
+  color: #64C8FF;
+}
+.box-2{
+  background-color: #FFF4DC;
+  box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  width: 367px;
+  height: 475px;
+}
+.box-2 img{
+  margin-top: 53px;
+}
+#link-2{
+  font-weight: 700px;
+  font-size: 1rem;
+  color: #F0AA00;
+}
+.box-3{
+  background-color: #F2E8FF;
+  box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  width: 367px;
+  height: 475px;
+}
+.box-3 img{
+  margin-top: 50px;
+}
+#link-3{
+  font-weight: 700px;
+  font-size: 1rem;
+  color: #8700FF;
+}
+
+
+
+
+
 /* responsive section style */
 
 @media screen and (max-width:576px) {
@@ -114,6 +207,14 @@
                 }
                 .banner-text{
                                 width: 100%;
+                }
+                /* standered section responsive */
+                .standered-container{
+                  flex-direction: column;
+                  width: 100%;
+                }
+                .box-1, .box-2, .box-3{
+                  width: 100%;
                 }
 }
 
