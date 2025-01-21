@@ -131,6 +131,7 @@ body{
   gap: 28px; 
 }
 .box-1{
+  border-radius: 18px;
     background-color: #DEF5FF;
     box-shadow: 0 0 28.3px 0.95px rgba(0, 0, 0, 0.05);
     text-align: center;
@@ -159,6 +160,7 @@ body{
   color: #64C8FF;
 }
 .box-2{
+  border-radius: 18px;
   background-color: #FFF4DC;
   box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
   text-align: center;
@@ -174,6 +176,7 @@ body{
   color: #F0AA00;
 }
 .box-3{
+  border-radius: 18px;
   background-color: #F2E8FF;
   box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
   text-align: center;
@@ -187,6 +190,150 @@ body{
   font-weight: 700px;
   font-size: 1rem;
   color: #8700FF;
+}
+
+/* story section style */
+.story-section{
+  margin-top: 60px;
+  background-image: url(./assets/bg.png);
+  width: 100%;
+}
+.title{
+  text-align: center;
+  font-weight: 700px;
+  font-size: 2.75rem;
+  color: #000000;
+}
+.stories-main-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  height: 630px;
+}
+.box-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.big-box{
+  background-color: white;
+  border-radius: 16px;
+  /* border: 0.5px solid black; */
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 1);
+}
+.big-box img{
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.big-box-btn{
+  margin-top: -80px;
+  background-color: #3CD8E8;
+  font-weight: 500px;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 47px;
+  width: 174px;
+  height: 47px;
+  margin-left: 30px;
+}
+.big-box-title{
+  font-weight: 700px;
+  font-size: 1.5rem;
+  color: #000000;
+  padding-left: 30px;
+}
+
+.big-box-description{
+  font-weight: 600px;
+  font-size: 1rem;
+  color: #666666;
+  padding-left: 30px;
+}
+.story-card{
+  background-color: white;
+  border-radius: 16px;
+  /* border: 0.5px solid black; */
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 1);
+}
+.story-card img{
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+/* all internal style of stories section */
+.story-card-btn-1{
+  margin-top: -80px;
+  margin-left: 30px;
+  width: 170px;
+  height: 38px;
+  background-color: #95B226;
+  border: none;
+  border-radius: 47px;
+  font-weight: 500px;
+  font-size: 1rem;
+  color: white;
+}
+  .story-card-btn-2{
+    margin-top: -80px;
+    margin-left: 30px;
+  width: 170px;
+  height: 38px;
+  background-color: #5D58F0;
+  border: none;
+  border-radius: 47px;
+  font-weight: 500px;
+  font-size: 1rem;
+  color: white;
+  }
+
+  .story-card-btn-3{
+    margin-top: -80px;
+    margin-left: 30px;
+  width: 170px;
+  height: 38px;
+  background-color: #b1930e;
+  border: none;
+  border-radius: 47px;
+  font-weight: 500px;
+  font-size: 1rem;
+  color: white;
+  }
+
+  .story-card-btn-4{
+    margin-top: -80px;
+    margin-left: 30px;
+  width: 170px;
+  height: 38px;
+  background-color: #ff002b;
+  border: none;
+  border-radius: 47px;
+  font-weight: 500px;
+  font-size: 1rem;
+  color: white;
+  }
+
+  .story-main-btn{
+    width: 195px;
+    height: 50px;
+    background-color: black;
+    font-weight: 700px;
+    font-size: 1.25rem;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    margin-top: 30px;
+  }
+
+  .stori-main-button{
+    text-align: center;
+  }
+
+.story-card-title{
+  font-weight: 700px;
+  font-size: 1rem;
+  color: #000000;
+  padding-left: 30px;
 }
 
 
