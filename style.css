@@ -12,8 +12,9 @@ body {
   margin-right: auto;
   border: 2px solid blue;
 }
-.hide {
-  display: none;
+
+.fa-bars{
+  visibility: hidden;
 }
 
 /* Header section style */
@@ -73,6 +74,10 @@ body {
   font-size: 1.25rem;
 }
 
+.horizon{
+  visibility: hidden;
+}
+
 /* Banner section style */
 
 .banner-section {
@@ -129,7 +134,8 @@ body {
 }
 .box-1 {
   border-radius: 18px;
-  background-color: #def5ff;
+  background-color: rgba(255, 255, 255, 1);
+  background: linear-gradient(rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
   box-shadow: 0 0 28.3px 0.95px rgba(0, 0, 0, 0.05);
   text-align: center;
   width: 367px;
@@ -159,6 +165,7 @@ body {
 .box-2 {
   border-radius: 18px;
   background-color: #fff4dc;
+  background: linear-gradient(rgba(255, 244, 220, 1), rgba(255, 255, 255, 0));
   box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
   text-align: center;
   width: 367px;
@@ -175,6 +182,7 @@ body {
 .box-3 {
   border-radius: 18px;
   background-color: #f2e8ff;
+  background: linear-gradient(rgba(238, 225, 255, 1), rgba(255, 255, 255, 0));
   box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
   text-align: center;
   width: 367px;
@@ -189,10 +197,48 @@ body {
   color: #8700ff;
 }
 
+.btn-container{
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.standered-btn-left:hover{
+  background-color: #05d4df;
+}
+.standered-btn-left{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: orange;
+}
+.fa-angle-left{
+  font-size: 2rem;
+  color: white;
+}
+.standered-btn-right:hover{
+  background-color: #05d4df;
+}
+.standered-btn-right{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  background-color: orange;
+}
+.fa-angle-right{
+  font-size: 2rem;
+  color: white;
+}
+
 /* story section style */
 .story-section {
   margin-top: 60px;
   background-image: url(./assets/bg.png);
+  /* background: linear-gradient(rgba(255, 255, 255, 1),rgba(254, 163, 1, 1) ); */
   width: 100%;
 }
 .title {
@@ -271,11 +317,7 @@ body {
   font-size: 1rem;
   color: white;
 }
-.fa-bars{
-  text-align: center;
-  font-weight: 700px;
-  font-size: 2rem;
-}
+
 .story-card-btn-2 {
   margin-top: -80px;
   margin-left: 30px;
@@ -328,6 +370,8 @@ body {
 }
 
 .stori-main-button {
+  margin-top: 60px;
+  
   text-align: center;
 }
 
@@ -337,6 +381,21 @@ body {
   color: #000000;
   padding-left: 30px;
 }
+
+/* footer section style */
+
+
+.kids-education{
+  display: flex;
+  gap: 10px;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
 
 /* responsive section style */
 
@@ -352,6 +411,15 @@ body {
 }
 .contact-btn{
   display: none;
+}
+.fa-bars{
+  visibility: visible;
+  text-align: center;
+  font-weight: 700px;
+  font-size: 2rem;
+}
+.horizon{
+  visibility: visible;
 }
 
   /* banner section responsive */
@@ -378,6 +446,9 @@ body {
   .box-2,
   .box-3 {
     width: 100%;
+  }
+  .btn-container{
+    display: none;
   }
 
   /* our stories section responsive */
